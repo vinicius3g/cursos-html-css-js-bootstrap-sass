@@ -22,17 +22,11 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
+	grid-area: footer;
 }
 body {
 	font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.92;
-    letter-spacing: normal;
-    text-align: left;
-    color: #6066f2;
+	line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -54,7 +48,7 @@ table {
 	grid-template-columns: 1fr 1fr;
 	grid-template-areas:  "header  header"
 						  "article picture"
-						  "footer  fotter";
+						  "footer  picture";
 	width: 80%;	
 	margin: 25px auto;				  
 
@@ -67,7 +61,13 @@ header{
 nav{
 	flex-grow: 1;
 }
-#picture{
+article{
+	grid-area: article;
+}
+picture{
 	grid-area: picture;
 	justify-self: end;
+}
+fotter{
+	grid-area: footer;
 }

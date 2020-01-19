@@ -1,3 +1,22 @@
 #brand>img{
     height: 40px;
 }
+.shape1 {
+ position: absolute;
+ height: 100vh;/*pega toda a altura da tela*/
+ width: 100%;
+ top: 0;
+ right: 0;
+ z-index: -1;
+
+}
+.shape2{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    height: 40%;
+}
+#footer small {
+    color: #959292;
+}

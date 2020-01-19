@@ -45,3 +45,67 @@
 .button:hover{
     background-color: #a837ab;
 }
+#article > span{
+    width: 506px;
+    height: 358px;
+    opacity: 0.35;
+    font-size: 320px;
+    font-weight: bold;
+    letter-spacing: 80px;
+    text-align: center;
+    color: #dbdbdb;
+    position: absolute;
+    z-index: -1;
+    margin-top: 90px;
+}
+#article > h1{
+    width: 466px;
+    height: 166px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: #488cf5;
+    margin-top: 150px;
+}
+#article > h2 {
+        width: 475px;
+        height: 85px;
+        font-size: 18px;
+        letter-spacing: 1px;
+        text-align: center;
+        color: #adadad;
+        margin-top: 70px;
+}
+.send-mensage{
+    width: 466px;
+    height: 58px;
+    border-radius: 29px;
+    box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+}
+.send-mensage > i > img{
+    padding-left: 20px;
+    position: relative;
+    top:4px;
+}
+.send-mensage  input{
+    padding: 21px 5px;
+    border:none;
+    width: 314px;
+}
+.send-mensage  button {
+    height: 40px;
+    width: 80px;
+    border-radius: 29px;
+    -webkit-border-radius: 29px;
+    background-color: #488cf5;
+    border:none;
+    cursor: pointer;
+    color: #fff;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+.send-mensage  button:hover{
+    background-color: #f4891f;
+}
